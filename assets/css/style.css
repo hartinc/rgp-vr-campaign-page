@@ -167,9 +167,14 @@ a.btn .fa-chevron-right {
 .videoLink::after {
     content: "\f167";
     font-family: "Font Awesome 5 Brands";
-    font-size: 45px;
+    font-size: 80px;
     position: absolute;
     display: block;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%) translateY(-58%);
+    color: #FF0000;
 }
 
 .ratio.ratio-16x9 {
