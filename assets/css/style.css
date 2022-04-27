@@ -160,6 +160,18 @@ a.btn .fa-chevron-right {
     margin-bottom: 2rem;
 }
 
+.videoLink {
+    position: relative;
+}
+
+.videoLink::after {
+    content: "\f167";
+    font-family: "Font Awesome 5 Brands";
+    font-size: 45px;
+    position: absolute;
+    display: block;
+}
+
 .ratio.ratio-16x9 {
     margin-top: 40px;
     margin-bottom: 30px;
