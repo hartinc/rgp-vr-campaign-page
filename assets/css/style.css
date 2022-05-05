@@ -9,10 +9,10 @@ body {
 }
 a, a:visited  {
     color: #81ba2c;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover, a:focus, a:active {
-    color: #81ba2c;
+    color: #303133;
     text-decoration: underline;
 }
 p {
